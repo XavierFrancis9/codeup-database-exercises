@@ -8,12 +8,12 @@ LIMIT 10;
 
 -- Create a query to get the top 5 salaries and display just the employees number from the salaries table
 SELECT emp_no
-FROM employees.salaries
+FROM salaries
 ORDER BY salary DESC
 LIMIT 5;
 
 -- Update the previous query to find the tenth page of results
 SELECT emp_no
-FROM employees.salaries
+FROM salaries
 ORDER BY salary DESC
 LIMIT 5 OFFSET 45;
